@@ -1,7 +1,7 @@
 .card-white-profile {
   padding: 30px;
   border-radius: 4px;
-  width: max(300px, 800px);
+  width: max(30rem, 40rem);
 }
 
 .cards {
