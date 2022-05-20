@@ -140,9 +140,6 @@ a:hover {
   .card-white-profile {
     display: block;
   }
-  .footer-copyright {
-    font-size: 0.5rem;
-  }
   .profile-content {
     align-items: center;
   }
@@ -153,6 +150,13 @@ a:hover {
     height: 200px;
     width: 200px;
   }
+  .list-inline-profile {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-copyright p {
+    font-size: 0.75rem;
+}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -168,7 +172,7 @@ a:hover {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .content-container {
     width: 600px;
@@ -183,9 +187,6 @@ a:hover {
   .content-container {
     width: 800px;
   }
-  .project-content {
-    font-size: 0.85rem;
-  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -195,8 +196,5 @@ a:hover {
   }
   .content-container {
     width: 1000px;
-  }
-  .project-content {
-    font-size: 0.85rem;
   }
 }
