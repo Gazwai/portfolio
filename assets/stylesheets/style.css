@@ -3,6 +3,7 @@
 @import url(components/footer.css);
 @import url(components/button.css);
 @import url(components/banner.css);
+@import url(components/header.css);
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
 *,
@@ -29,6 +30,8 @@ p {
 ul {
   padding: 0;
 }
+
+
 
 p {
   font-family: "Poppins";
@@ -64,8 +67,9 @@ canvas
 a {
   font-weight: 400;
   text-decoration: none;
-  color: #5a9ca4;
+  color: #000000;
   display: inline-block;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -131,6 +135,13 @@ a:hover {
 
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
+  header {
+    padding: 0;
+    justify-content: center;
+  }
+  header h1 {
+    display: none;
+  }
   .cards {
     grid-template-columns: 1fr;
   }
