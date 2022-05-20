@@ -5,11 +5,11 @@
 }
 
 .img-circle {
-  height: 250px;
-  width: 250px;
+  height: 16rem;
+  width: 16rem;
   border-radius: 50%;
   object-fit: cover;
   margin: 1rem;
-  box-shadow: 0 0 12px #d7d7d7, 0 0 24px #868686, 0 0 36px #cacaca;
+  box-shadow: 0 0 12px #d7d7d7, 0 0 24px rgb(35, 35, 35), 0 0 36px #cacaca;
   filter: brightness(1.2);
 }
