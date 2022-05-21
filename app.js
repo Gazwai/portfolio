@@ -1,8 +1,7 @@
 AOS.init({
-  startEvent: 'load'
+  startEvent: 'load',
+  disable: 'mobile'
 });
-
-window.addEventListener('load', AOS.refresh);
 
 particlesJS.load('particles-js', 'assets/particle-cfg.json', function() {
         console.log('callback - particles.js config loaded');
