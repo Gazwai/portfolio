@@ -1,5 +1,6 @@
-AOS.init()
-
+AOS.init({
+  startEvent: 'load'
+});
 particlesJS.load('particles-js', 'assets/particle-cfg.json', function() {
         console.log('callback - particles.js config loaded');
         });
