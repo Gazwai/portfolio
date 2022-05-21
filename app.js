@@ -1,6 +1,8 @@
 AOS.init({
   startEvent: 'load',
-  disable: 'mobile'
+  disable: 'mobile',
+  once: true,
+  duration: 1000
 });
 
 particlesJS.load('particles-js', 'assets/particle-cfg.json', function() {
