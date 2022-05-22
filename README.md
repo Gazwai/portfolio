@@ -1,1 +1,5 @@
-**Welcome to my portfolio. Please visit garyyau.me to see the site in production **
+# My Portfolio
+
+Welcome to my portfolio github!
+
+Please go to [garyyau.me](https://garyyau.me/) to see the site in production 😁
