@@ -103,6 +103,12 @@ a:hover {
   display: inline-block;
 }
 
+.list-inline-profile_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 .list-inline-profile {
   justify-content: space-between;
   align-items: center;
@@ -167,6 +173,19 @@ a:hover {
   }
   .footer {
     padding: 1rem 2rem;
+  }
+
+  .experience-links {
+    display: none;
+  }
+
+  .experience-links-small {
+    display: block;
+  }
+
+  .experience-links-small h1 a {
+    font-weight: inherit;
+    color: inherit;
   }
 }
 
