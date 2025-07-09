@@ -149,7 +149,7 @@ a:hover {
     grid-template-columns: 1fr;
   }
   .content-container {
-    width: 300px;
+    width: 380px;
   }
   .card-white-profile {
     display: block;
@@ -183,7 +183,7 @@ a:hover {
     display: block;
   }
 
-  .experience-links-small h1 a {
+  .experience-links-small h1 a, .experience-links-small h2 a {
     font-weight: inherit;
     color: inherit;
   }
